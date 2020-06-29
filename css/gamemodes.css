@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    background-color: #071325;
+    margin: auto;
+}
+nav{
+   background-color: #05111E;
+}
+nav ul{
+    margin-bottom: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding:0 20px;
+    line-height: 63px;
+    
+}
+.img_logo{
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #3D4A58;
+}
+nav ul li a:hover{
+    background-color: #3D4A58;
+    color: white;
+    text-decoration: none;
+}
+.span_name{
+    color: white;
+    font-size: 30px;
+    padding: 50px 0;
+}
+hr{
+    width: 400px;
+    margin: 70px 0;
+    border: 1px solid #ADA176;
+}
+article .content2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+.content2{
+    text-align: center;
+    margin: 0 410px;
+}
+.box1{
+    border: 1px solid #ADA176;
+    width: 1080px;
+    height: 200px;
+    margin-top: 30px;
+    background-image: url(../image/gamemodes/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.box1 .link .logo{
+    width: 30%;
+    height: 100%;
+}
+.link a{
+    height: 100%;
+    line-height: 200px;  
+}
+.box1 .link .logo img{
+    width:200px;
+    height: 100%;
+}
+.box1 .link{
+    width: 100%;
+    text-align: left;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box2{
+    background-image: url(../image/gamemodes/2.jpg);
+}
+.box3{
+    background-image: url(../image/gamemodes/3.jpg);
+}
+.box4{
+    background-image: url(../image/gamemodes/4.jpg);
+}
+.box5{
+    background-image: url(../image/gamemodes/5.jpg);
+  
+}
+.box6{
+    background-image: url(../image/gamemodes/6.jpg);
+ 
+}
+footer {
+    background-color: #071325;
+  }
+  footer nav {
+    padding-left: 20px;
+    display: flex;
+    border-top: 1px solid #ADA176;
+    border-bottom: 1px solid #ADA176;
+  }
+  footer nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 400px;
+    margin-bottom: 0;
+  }
+  footer nav ul .btn-footer {
+    width: 300px;
+  }
+  footer nav ul li {
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  footer nav ul li .btn-footer2 {
+    width: 40px;
+    height: 50px;
+    padding: 10px 5px;
+    border: 1px solid cadetblue;
+    border-radius: 50%;
+  }
+  footer nav .back-to-top {
+    padding-top: 20px;
+    padding-left: 250px;
+    color: #FFFFFF;
+  }
+  footer nav .back-to-top i {
+    border-radius: 50%;
+  }
+  footer .item__list {
+    padding-top: 20px;
+    padding-left: 20px;
+    list-style: none;
+  }
+  footer .item__list .list__item {
+    color: white;
+  }
+  .flex{
+    display: flex;
+  }
+  a{
+    text-decoration: none;
+    line-height: 30px;
+  }
+  a:hover{
+    text-decoration: none;
+  }

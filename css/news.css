@@ -1,0 +1,28 @@
+.news{
+    background-color: #071425;
+}
+.row{
+    display: flex;
+    margin: 0px 100px;
+    padding-top: 100px;
+}
+.box{
+    flex: 1;
+    margin: 0 10px;
+    border: 1px solid #ADA176;
+}
+.box img{
+    height: 230px;
+}
+h3{
+    color: white;
+    border-bottom: 1px solid #ADA176;
+    padding: 10px;
+}
+p{
+    color: #ADA176;
+    padding: 5px;
+}
+footer{
+    padding-top: 100px;
+}
